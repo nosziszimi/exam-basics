@@ -18,7 +18,9 @@ public class cp {
     } else if (args.length == 1) {
       Copy.missingDestination();
     } else if (args.length == 2 && Copy.isFile(args[0])) {
-
+      Copy.readAndWrite(args[0], args[1]);
+    } else {
+      System.out.println("Unsupported argument");
     }
   }
 }
