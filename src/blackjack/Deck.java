@@ -45,5 +45,9 @@ public class Deck {
         cardsNumber -= 1;
       }
     }
+    int random = (int)(Math.random() * Card.VALUES.size());
+    for (String[] colorAndValue : allCardColorsAndValues) {
+      colorAndValue[1] = (String) Card.VALUES.get(random);
+    }
   }
 }
