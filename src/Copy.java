@@ -26,11 +26,17 @@ public class Copy {
 
   public static void readAndWrite(String sourcePath, String destinationPath) {
     Path source = Paths.get(sourcePath);
+    Path destination = Paths.get(destinationPath);
+    List<String> lines = new ArrayList<>();
     try {
-      List<String> lines = new ArrayList<>(Files.readAllLines(source));
+      lines = Files.readAllLines(source);
     } catch (IOException e) {
       e.printStackTrace();
     }
-
+    try {
+      Files.write(destination, lines);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
   }
 }
