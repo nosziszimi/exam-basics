@@ -19,4 +19,10 @@ class OddAvgTest {
     assertEquals(4, oddAvg.oddAverage(listOfNumbers));
   }
 
+  @Test
+  void oddAverageEmpty() {
+    ArrayList<Integer> listOfNumbers = new ArrayList<>();
+    assertEquals(0, oddAvg.oddAverage(listOfNumbers));
+  }
+
 }

@@ -24,7 +24,9 @@ public class OddAvg {
     for (Integer oddNumber : oddNumbers) {
       oddAvg += oddNumber;
     }
-    oddAvg /= oddNumbers.size();
+    if (oddNumbers.size() > 0) {
+      oddAvg /= oddNumbers.size();
+    }
     return oddAvg;
   }
 
