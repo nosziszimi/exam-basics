@@ -36,15 +36,15 @@ The application is accepted if:
 
 #### Your answer:
 [add your answer here]   
-1:   
-2:   
-3:   
-4:   
-5:   
-6:   
-7:   
-8:   
+1: the head of the method  
+2: return type  
+3: the name of the method  
+4: incoming parameter / argument type  
+5: incoming parameter / argument name  
+6: variable  
+7: the body of the method  
+8: return value  
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+The constructor is a special method of a class that allows us to instantiate that class. Every class has a default constructor, but we can create more specific ones, which take in parameters. Constructors are used when creating a new instannce of something by using the 'new' keyword and the Constructor() of the object.
