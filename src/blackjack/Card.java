@@ -5,4 +5,10 @@ package blackjack;
  */
 public class Card {
 
+  String color, value;
+
+  public Card(String color, String value) {
+    this.color = color;
+    this.value = value;
+  }
 }
