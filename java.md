@@ -43,7 +43,7 @@ The application is accepted if:
 5: incoming parameter / argument name  
 6: variable  
 7: the body of the method  
-8: return value  
+8: return variable  
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
