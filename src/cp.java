@@ -1,7 +1,7 @@
 /**
  * Created by Nóra on 2017. 04. 18..
  */
-public class CopyApp {
+public class cp {
 
   public static void main(String[] args) {
     // This should be the basic replica of the 'cp' command
