@@ -15,6 +15,8 @@ public class cp {
 
     if (args.length == 0) {
       Copy.printUsage();
+    } else if (args.length == 1) {
+      Copy.missingDestination();
     }
   }
 }
