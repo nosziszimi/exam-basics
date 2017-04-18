@@ -17,6 +17,8 @@ public class cp {
       Copy.printUsage();
     } else if (args.length == 1) {
       Copy.missingDestination();
+    } else if (args.length == 2 && Copy.isFile(args[0])) {
+
     }
   }
 }
