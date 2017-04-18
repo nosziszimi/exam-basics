@@ -25,4 +25,10 @@ class OddAvgTest {
     assertEquals(0, oddAvg.oddAverage(listOfNumbers));
   }
 
+  @Test
+  void oddAverageEvens() {
+    ArrayList<Integer> listOfNumbers = new ArrayList<>(Arrays.asList(2, 4, 6));
+    assertEquals(0, oddAvg.oddAverage(listOfNumbers));
+  }
+
 }
