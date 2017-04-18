@@ -11,4 +11,9 @@ public class Card {
     this.color = color;
     this.value = value;
   }
+
+  public String toString() {
+    String card = new String();
+    return card = value + " " + color;
+  }
 }
