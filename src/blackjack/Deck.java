@@ -12,7 +12,7 @@ public class Deck {
 
   public Deck(int numberOfCards) {
     cards = new ArrayList<>();
-
+    this.fillCardsList(numberOfCards);
   }
 
   public void fillCardsList(int numberOfCards) {
