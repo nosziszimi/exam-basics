@@ -49,5 +49,8 @@ public class Deck {
     for (String[] colorAndValue : allCardColorsAndValues) {
       colorAndValue[1] = (String) Card.VALUES.get(random);
     }
+    for (String[] colorAndValue : allCardColorsAndValues) {
+      cards.add(new Card(colorAndValue[0], colorAndValue[1]));
+    }
   }
 }
