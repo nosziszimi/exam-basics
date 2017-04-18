@@ -12,5 +12,9 @@ public class cp {
     // No destination provided
     // When both arguments provided and the source is a file
     // Read all contents from it and write it to the destination
+
+    if (args.length == 0) {
+      Copy.printUsage();
+    }
   }
 }

@@ -3,4 +3,7 @@
  */
 public class Copy {
 
+  public static void printUsage() {
+    System.out.println("copy [source] [destination]");
+  }
 }
